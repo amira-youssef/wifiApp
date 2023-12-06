@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#333333"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:text="Link Speed: 100ms\nIP Address: 192.168.1.1" />
+
+        <TextView
+            android:id="@+id/spdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#333333"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:text="" />
+    </LinearLayout>
+</RelativeLayout>
